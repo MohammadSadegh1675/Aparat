@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"
+        app:iconTint="@color/tint_icon_bottom">
+
+    </item>
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/ic_baseline_subject_24"
+        android:title="@string/category"
+        app:iconTint="@color/tint_icon_bottom">
+
+    </item>
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/favorite"
+        app:iconTint="#ADAEB8">
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="@string/login"
+        app:iconTint="@color/tint_icon_bottom">
+
+    </item>
+</menu>
